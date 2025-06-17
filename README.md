@@ -1,20 +1,31 @@
-<<<<<<< HEAD
-# Simple-App-in-flutter
-=======
-# app6
+# 📝 App de Notas em Flutter
 
-A new Flutter project.
+Este é um aplicativo simples de notas desenvolvido com Flutter. Ele permite criar, visualizar e listar posts com título e subtítulo, funcionando como uma espécie de bloco de anotações.
 
-## Getting Started
+## 📱 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- ✅ Criar novos posts com título e subtítulo  
+- 📋 Listar todos os posts criados em forma de grade  
+- 🔍 Visualizar os detalhes completos de cada post  
+- 🧭 Navegação com menu lateral (Drawer)  
+- 💾 Armazenamento temporário
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧱 Estrutura do Projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 6b4aa0d (first commit)
+lib/
+├── main.dart # Tela principal com lista de posts e navegação
+├── create_post.dart # Tela para criação de novos posts
+└── detail_post.dart # Tela de visualização dos detalhes do post
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+1. git clone https://github.com/helenaoffline/Simple-App-in-flutter.gitcd Simple-App-in-flutter
+2. cd Simple-App-in-flutter
+3. flutter pub get
+4. flutter run
+
+
